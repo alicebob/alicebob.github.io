@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+html {
+    height: 100%;
+}
+body {
+    display: grid;
+    grid-template-columns: 300px minmax(100px, 600px);
+    grid-template-rows: 50px auto;
+    height: 100%;
+    margin: 0;
+}
+nav {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+article {
+    grid-row: 2;
+    grid-column: 2;
+}
+aside {
+    grid-row: 2;
+    grid-column: 1;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">home</a> - 
+        <a href="../projects.html">projects</a> - 
+        <a href="index.html">articles</a>
+    </nav>
+    <article>
+        <h2 id="blogs">Blogs!</h2>
+
+<ul>
+
+    
+
+    
+        <li><a href="201802-sqlittle.html">Introducing SQLittle</a></li>
+    
+
+    
+        <li><a href="201801-helloworld.html">Hello world</a></li>
+    
+
+</ul>
+
+    </article>
+    <aside>sidebar!</aside>
+</body>
+</html>
