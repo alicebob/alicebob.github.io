@@ -3,7 +3,7 @@
 }
 ---
 
-List of OSS projects I've worked on. No particular order really.
+List of OSS projects I've worked on. No particular order.
 
 
 # Go libraries
@@ -87,7 +87,7 @@ Used in iTuned.
 [Paperclip SQL](https://github.com/alicebob/paperclip-sql) - Rails Paperclip module which stores file uploads in an SQL table.
 
 
-[SchemaSpy](https://github.com/alicebob/schemaspy)- Go library to read PostgreSQL schemas.
+[SchemaSpy](https://github.com/alicebob/schemaspy) - Go library to read PostgreSQL schemas.
 
 
 [Wikiundump](https://github.com/alicebob/wikiundump) - Small utility to unpack wikipedia dump files to individual files.

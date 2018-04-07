@@ -1,12 +1,17 @@
 {"title":"Introducing SQLittle"}
 ---
+<div class="date"> 
+April 2018, Berlin
+</div>
 
-The last week I wrote SQLittle. SQLittle is a pure Go, low level, .sqlite file reader.
+The last week I wrote SQLittle. SQLittle is a pure Go, low level, .sqlite file
+reader library.
 
 The low level part is that it doesn't give you access via SQL, but that it
 gives you the methods to efficiently iterate and search the tables and indexes
 in an .sqlite file. It also let you list and inspect the tables and indexes in
-the file. And as a final piece of the puzzle there are read locks, which are compatible with sqlite.
+the file. And as a final piece of the puzzle there are read locks, which are
+compatible with sqlite.
 
 In theory this should be enough to build a pure Go SQL engine on top of this...
 
