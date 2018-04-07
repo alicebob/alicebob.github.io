@@ -4,5 +4,5 @@ all: build
 
 build:
 	@# go get github.com/peterbourgon/grender
-	rm -rf ./static
-	grender -target ./static
+	rm -rf ./docs
+	grender -target ./docs
