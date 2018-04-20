@@ -3,9 +3,9 @@
 }
 ---
 <div class="date"> 
-April 2018, Berlin
+Berlin, April 2018
 </div>
 
-2018 sounds like a good year to start a blog.
+2018 sounds like a good year to start some typing.
 
 

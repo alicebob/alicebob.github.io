@@ -1,7 +1,7 @@
 {"title":"Introducing SQLittle"}
 ---
 <div class="date"> 
-April 2018, Berlin
+Berlin, April 2018
 </div>
 
 The last week I wrote SQLittle. SQLittle is a pure Go, low level, .sqlite file

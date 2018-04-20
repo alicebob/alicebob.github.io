@@ -8,3 +8,4 @@ clean:
 build: clean
 	@# go get github.com/peterbourgon/grender
 	grender -source . -target ..
+	rm ../Makefile
