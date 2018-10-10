@@ -54,7 +54,6 @@ footer {
     <nav>
         <span class="logo">Alicebob</span> <a href="{{ relative "/index.html" }}">home</a>
         <a href="{{ relative "/projects.html" }}">projects</a>
-        <a href="{{ relative "/b/index.html" }}">articles</a>
     </nav>
     <article>
         {{ .content }}
